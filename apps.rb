@@ -49,3 +49,19 @@ end
 dep 'iTerm.app' do
   source 'http://code.google.com/p/iterm2/downloads/detail?name=iTerm2_v1_0_0.zip&can=2&q='
 end
+
+dep 'app items' do
+  requires '1Password.app',
+    'Adium.app',
+    'Cyberduck.app',
+    'Firefox.app',
+    'Fluid.app',
+    'Google Chrome.app',
+    'ImageOptim.app',
+    'LimeChat.app',
+    'Sequel Pro.app',
+    'Spectacle.app',
+    'Sublime Text 2.app',
+    'VirtualBox.app',
+    'iTerm.app'
+end
