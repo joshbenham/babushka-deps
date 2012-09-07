@@ -15,53 +15,37 @@ dep 'Firefox.app' do
 end
 
 dep 'Fluid.app' do
-
+  source 'http://fluidapp.com/dist/Fluid_1.6.zip'
 end
 
 dep 'Google Chrome.app' do
-
-end
-
-dep 'Google Drive.app' do
-
+  source 'https://dl-ssl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg'
 end
 
 dep 'ImageOptim.app' do
-
+  source 'http://imageoptim.com/ImageOptim.tbz2'
 end
 
 dep 'LimeChat.app' do
-
+  source 'http://cloud.github.com/downloads/psychs/limechat/LimeChat_2.33a.tbz'
 end
 
 dep 'Sequel Pro.app' do
-
-end
-
-dep 'Skitch.app' do
-
-end
-
-dep 'Skype.app' do
-
+  source 'http://sequel-pro.googlecode.com/files/Sequel_Pro_0.9.9.1.dmg'
 end
 
 dep 'Spectacle.app' do
-
-end
-
-dep 'Spotify.app' do
-
+  source 'http://spectacleapp.com/updates/downloads/Spectacle%200.6.10.zip'
 end
 
 dep 'Sublime Text 2.app' do
-
+  source 'http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.1.dmg'
 end
 
 dep 'VirtualBox.app' do
-
+  source 'http://download.virtualbox.org/virtualbox/4.1.20/VirtualBox-4.1.20-80170-OSX.dmg'
 end
 
 dep 'iTerm.app' do
-
+  source 'http://code.google.com/p/iterm2/downloads/detail?name=iTerm2_v1_0_0.zip&can=2&q='
 end
