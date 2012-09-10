@@ -7,7 +7,7 @@ dep 'Adium.app' do
 end
 
 dep 'Cyberduck.app' do
-  souce 'http://cyberduck.ch/Cyberduck-4.2.1.zip'
+  source 'http://cyberduck.ch/Cyberduck-4.2.1.zip'
 end
 
 dep 'Firefox.app' do
@@ -38,9 +38,9 @@ dep 'Spectacle.app' do
   source 'http://spectacleapp.com/updates/downloads/Spectacle%200.6.10.zip'
 end
 
-dep 'Sublime Text 2', :template => "app" do
-  version nil
+dep 'Sublime Text 2.app' do
   source 'http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.1.dmg'
+  version '>= 2.0.1'
 end
 
 dep 'VirtualBox.app' do
