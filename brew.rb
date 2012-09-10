@@ -2,7 +2,7 @@ dep 'ack.brew'
 dep 'ctags.brew'
 dep 'git.brew'
 dep 'jpeg.brew'
-dep 'mongo.brew'
+dep 'mongodb.brew'
 dep 'wget.brew'
 dep 'zsh.brew'
 
@@ -11,7 +11,7 @@ dep 'brew items' do
     'ctags.brew',
     'git.brew',
     'jpeg.brew',
-    'mongo.brew',
+    'mongodb.brew',
     'wget.brew',
     'zsh.brew'
 end
