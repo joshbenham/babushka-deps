@@ -38,7 +38,8 @@ dep 'Spectacle.app' do
   source 'http://spectacleapp.com/updates/downloads/Spectacle%200.6.10.zip'
 end
 
-dep 'Sublime Text 2.app' do
+dep 'Sublime Text 2', :template => "app" do
+  version nil
   source 'http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.1.dmg'
 end
 
