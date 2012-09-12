@@ -3,6 +3,7 @@ dep 'ctags.brew'
 dep 'git.brew'
 dep 'jpeg.brew'
 dep 'mongodb.brew'
+dep 'phantomjs.brew'
 dep 'wget.brew'
 dep 'zsh.brew'
 
@@ -12,6 +13,7 @@ dep 'brew items' do
     'git.brew',
     'jpeg.brew',
     'mongodb.brew',
+    'phantomjs.brew',
     'wget.brew',
     'zsh.brew'
 end
