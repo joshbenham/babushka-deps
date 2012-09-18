@@ -47,6 +47,10 @@ dep 'VirtualBox.app' do
   source 'http://download.virtualbox.org/virtualbox/4.1.20/VirtualBox-4.1.20-80170-OSX.dmg'
 end
 
+dep 'VLC.app' do
+  source 'http://downloads.sourceforge.net/project/vlc/2.0.3/macosx/vlc-2.0.3-intel64.dmg'
+end
+
 dep 'iTerm.app' do
   source 'http://code.google.com/p/iterm2/downloads/detail?name=iTerm2_v1_0_0.zip&can=2&q='
 end
@@ -64,5 +68,6 @@ dep 'app items' do
     'Spectacle.app',
     'Sublime Text 2.app',
     'VirtualBox.app',
+    'VLC.app',
     'iTerm.app'
 end
