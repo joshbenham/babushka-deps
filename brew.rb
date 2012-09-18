@@ -4,6 +4,7 @@ dep 'git.brew'
 dep 'jpeg.brew'
 dep 'mongodb.brew'
 dep 'phantomjs.brew'
+dep 'unrar.brew'
 dep 'wget.brew'
 dep 'zsh.brew'
 
@@ -14,6 +15,7 @@ dep 'brew items' do
     'jpeg.brew',
     'mongodb.brew',
     'phantomjs.brew',
+    'unrar.brew',
     'wget.brew',
     'zsh.brew'
 end
