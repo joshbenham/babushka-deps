@@ -7,7 +7,9 @@ dep 'jpeg.managed' do
   }
   provides []
 end
-dep 'mongodb.managed'
+dep 'mongodb.managed' do
+  provides %w(mongo mongod)
+end
 dep 'phantomjs.managed'
 dep 'unrar.managed'
 dep 'wget.managed'
