@@ -55,7 +55,7 @@ dep 'iTerm.app' do
   source 'http://code.google.com/p/iterm2/downloads/detail?name=iTerm2_v1_0_0.zip&can=2&q='
 end
 
-dep 'app items' do
+dep 'osx applications installed' do
   requires '1Password.app',
     'Adium.app',
     'Cyberduck.app',
