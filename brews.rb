@@ -10,6 +10,7 @@ end
 dep 'mongodb.managed' do
   provides %w(mongo mongod)
 end
+dep 'optipng.managed'
 dep 'phantomjs.managed'
 dep 'unrar.managed'
 dep 'wget.managed'
@@ -21,6 +22,7 @@ dep 'osx brews installed' do
     'git.managed',
     'jpeg.managed',
     'mongodb.managed',
+    'optipng.managed',
     'phantomjs.managed',
     'unrar.managed',
     'wget.managed',
