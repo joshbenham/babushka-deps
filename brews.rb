@@ -1,6 +1,11 @@
 dep 'ack.managed'
 dep 'ctags.managed'
 dep 'git.managed'
+dep 'htop.managed' do
+  installs {
+    via :brew, 'htop-osx'
+  }
+end
 dep 'jpeg.managed' do
   installs {
     via :brew, 'jpeg'
@@ -21,6 +26,7 @@ dep 'osx brews installed' do
   requires 'ack.managed',
     'ctags.managed',
     'git.managed',
+    'htop.managed',
     'jpeg.managed',
     'mongodb.managed',
     'node.managed',
