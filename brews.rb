@@ -22,6 +22,7 @@ end
 dep 'node.managed'
 dep 'optipng.managed'
 dep 'phantomjs.managed'
+dep 'tmux.managed'
 dep 'unrar.managed'
 dep 'vim.managed'
 dep 'wget.managed'
@@ -39,6 +40,7 @@ dep 'osx brews installed' do
     'node.managed',
     'optipng.managed',
     'phantomjs.managed',
+    'tmux.managed',
     'unrar.managed',
     'vim.managed',
     'wget.managed',
