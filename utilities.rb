@@ -8,9 +8,12 @@ dep 'ack-grep.managed' do
   }
 end
 
+dep 'bzr.managed'
+
 dep 'exuberant-ctags.managed' do
   provides ['ctags']
 end
+
 dep 'git.managed'
 dep 'htop.managed'
 dep 'mercurial.managed'
@@ -18,6 +21,7 @@ dep 'vim.managed'
 
 dep 'linux utilities installed' do
   requires 'ack-grep.managed',
+    'bzr.managed',
     'exuberant-ctags.managed',
     'git.managed',
     'htop.managed',
