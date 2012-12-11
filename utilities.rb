@@ -17,6 +17,11 @@ end
 dep 'git.managed'
 dep 'htop.managed'
 dep 'mercurial.managed'
+
+dep 'openssh-client.managed' do
+  provides ['ssh']
+end
+
 dep 'vim.managed'
 
 dep 'linux utilities installed' do
@@ -26,5 +31,6 @@ dep 'linux utilities installed' do
     'git.managed',
     'htop.managed',
     'mercurial.managed',
+    'openssh-client.managed',
     'vim.managed'
 end
