@@ -15,6 +15,7 @@ dep 'exuberant-ctags.managed' do
 end
 
 dep 'filezilla.managed'
+dep 'ftp.managed'
 dep 'git.managed'
 dep 'htop.managed'
 dep 'mercurial.managed'
@@ -30,6 +31,7 @@ dep 'linux utilities installed' do
     'bzr.managed',
     'exuberant-ctags.managed',
     'filezilla.managed',
+    'ftp.managed',
     'git.managed',
     'htop.managed',
     'mercurial.managed',
