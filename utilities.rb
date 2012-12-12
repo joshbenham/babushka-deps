@@ -14,6 +14,7 @@ dep 'exuberant-ctags.managed' do
   provides ['ctags']
 end
 
+dep 'filezilla.managed'
 dep 'git.managed'
 dep 'htop.managed'
 dep 'mercurial.managed'
@@ -28,6 +29,7 @@ dep 'linux utilities installed' do
   requires 'ack-grep.managed',
     'bzr.managed',
     'exuberant-ctags.managed',
+    'filezilla.managed',
     'git.managed',
     'htop.managed',
     'mercurial.managed',
