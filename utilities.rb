@@ -31,7 +31,9 @@ dep 'openssh-client.managed' do
   provides ['ssh']
 end
 
+dep 'synaptic.managed'
 dep 'vim.managed'
+dep 'vlc.managed'
 dep 'xchat.managed'
 
 dep 'xchat-indicator.managed' do
@@ -53,7 +55,9 @@ dep 'linux utilities installed' do
     'htop.managed',
     'mercurial.managed',
     'openssh-client.managed',
+    'synaptic.managed',
     'vim.managed',
+    'vlc.managed',
     'xchat.managed',
     'xchat-indicator.managed',
     'xchat-xsys.managed'
