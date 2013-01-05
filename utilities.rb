@@ -31,6 +31,10 @@ dep 'openssh-client.managed' do
   provides ['ssh']
 end
 
+dep 'python-pip.managed' do
+  provides ['pip']
+end
+
 dep 'synaptic.managed'
 dep 'vim.managed'
 dep 'vlc.managed'
@@ -55,6 +59,7 @@ dep 'linux utilities installed' do
     'htop.managed',
     'mercurial.managed',
     'openssh-client.managed',
+    'python-pip.managed',
     'synaptic.managed',
     'vim.managed',
     'vlc.managed',
