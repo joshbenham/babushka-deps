@@ -48,6 +48,8 @@ dep 'xchat-xsys.managed' do
   provides []
 end
 
+dep 'xclip.managed'
+
 dep 'linux utilities installed' do
   requires 'ack-grep.managed',
     'bzr.managed',
@@ -65,5 +67,6 @@ dep 'linux utilities installed' do
     'vlc.managed',
     'xchat.managed',
     'xchat-indicator.managed',
-    'xchat-xsys.managed'
+    'xchat-xsys.managed',
+    'xclip.managed'
 end
