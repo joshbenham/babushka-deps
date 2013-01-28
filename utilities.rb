@@ -37,6 +37,7 @@ end
 
 dep 'synaptic.managed'
 dep 'vim.managed'
+dep 'virtualbox.managed'
 dep 'vlc.managed'
 dep 'xchat.managed'
 
@@ -64,6 +65,7 @@ dep 'linux utilities installed' do
     'python-pip.managed',
     'synaptic.managed',
     'vim.managed',
+    'virtualbox.managed',
     'vlc.managed',
     'xchat.managed',
     'xchat-indicator.managed',
