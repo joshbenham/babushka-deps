@@ -7,7 +7,7 @@ dep 'gimp-plugin-registry.managed' do
 end
 dep 'inkscape.managed'
 
-dep 'linux graphics apps installed' do
+dep 'linux graphics installed' do
   requires 'gimp.managed',
     'gimp-data-extras.managed',
     'gimp-plugin-registry.managed',

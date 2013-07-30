@@ -12,7 +12,7 @@ end
 
 dep 'trimage.managed'
 
-dep 'linux development apps installed' do
+dep 'linux development installed' do
   requires 'firefox.managed',
     'firefox-launchpad-plugin.managed',
     'sublime-text.managed',

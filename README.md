@@ -21,7 +21,7 @@ Running
 
 **Linux**
 ```sh
-$ babushka 'echo installed'
+$ babushka 'linux installed'
 ```
 
 **OSX**
