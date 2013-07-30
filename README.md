@@ -21,10 +21,10 @@ Running
 
 **Linux**
 ```sh
-$ sudo babushka 'echo installed'
+$ babushka 'echo installed'
 ```
 
 **OSX**
 ```sh
-$ sudo babushka 'osx installed'
+$ babushka 'osx installed'
 ```
