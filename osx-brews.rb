@@ -14,6 +14,7 @@ end
 dep 'mercurial.managed' do
   provides ['hg']
 end
+dep 'node.managed'
 dep 'python.managed'
 dep 'tmux.managed'
 dep 'tree.managed'
@@ -30,6 +31,7 @@ dep 'osx brews installed' do
     'git.managed',
     'macvim.managed',
     'mercurial.managed',
+    'node.managed',
     'python.managed',
     'tmux.managed',
     'tree.managed',
