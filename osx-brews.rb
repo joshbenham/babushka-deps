@@ -8,6 +8,9 @@ end
 dep 'ctags.managed'
 dep 'curl.managed'
 dep 'git.managed'
+dep 'htop-osx.managed' do
+  provides ['htop']
+end
 dep 'macvim.managed' do
   provides ['mvim']
 end
@@ -29,6 +32,7 @@ dep 'osx brews installed' do
     'ctags.managed',
     'curl.managed',
     'git.managed',
+    'htop-osx.managed',
     'macvim.managed',
     'mercurial.managed',
     'node.managed',
