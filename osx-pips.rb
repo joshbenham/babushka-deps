@@ -1,3 +1,6 @@
+dep 'clint.pip' do
+  provides []
+end
 dep 'httpie.pip' do
   provides 'http'
 end
@@ -9,7 +12,8 @@ end
 dep 'virtualenv.pip'
 
 dep 'osx pips installed' do
-  requires 'httpie.pip',
+  requires 'clint.pip',
+    'httpie.pip',
     'flake8.pip',
     'ipython.pip',
     'Pygments.pip',
