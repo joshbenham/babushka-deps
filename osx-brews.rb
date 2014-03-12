@@ -19,6 +19,7 @@ dep 'mercurial.managed' do
 end
 dep 'node.managed'
 dep 'python.managed'
+dep 'ruby.managed'
 dep 'tmux.managed'
 dep 'tree.managed'
 dep 'unrar.managed'
@@ -37,6 +38,7 @@ dep 'osx brews installed' do
     'mercurial.managed',
     'node.managed',
     'python.managed',
+    'ruby.managed',
     'tmux.managed',
     'tree.managed',
     'unrar.managed',
