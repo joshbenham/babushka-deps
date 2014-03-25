@@ -12,7 +12,7 @@ dep 'Pygments.pip' do
 end
 dep 'virtualenv.pip'
 
-dep 'osx pips installed' do
+dep 'linux pips installed' do
   requires 'clint.pip',
     'ffind.pip',
     'httpie.pip',
