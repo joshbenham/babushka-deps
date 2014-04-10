@@ -7,6 +7,13 @@ dep 'httpie.pip' do
 end
 dep 'flake8.pip'
 dep 'ipython.pip'
+dep 'jslint.pip' do
+  provides ['jslint-cli']
+  after {
+    sudo 'ln -s /usr/local/bin/jslint-cli /usr/local/bin/jslint'
+    log  'Symlinked /usr/local/bin/jslint-cli to /usr/local/bin/jslint'
+  }
+end
 dep 'Pygments.pip' do
   provides 'pygmentize'
 end
@@ -18,6 +25,7 @@ dep 'linux pips installed' do
     'httpie.pip',
     'flake8.pip',
     'ipython.pip',
+    'jslint.pip',
     'Pygments.pip',
     'virtualenv.pip'
 end
