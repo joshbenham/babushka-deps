@@ -27,6 +27,8 @@ dep 'mercurial.managed' do
   provides ['hg']
 end
 
+dep 'nmap.managed'
+
 dep 'openssh-client.managed' do
   provides ['ssh']
 end
@@ -61,6 +63,7 @@ dep 'linux utilities installed' do
     'git.managed',
     'htop.managed',
     'mercurial.managed',
+    'nmap.managed',
     'openssh-client.managed',
     'python-pip.managed',
     'synaptic.managed',
