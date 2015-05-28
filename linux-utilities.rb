@@ -33,6 +33,8 @@ dep 'openssh-client.managed' do
   provides ['ssh']
 end
 
+dep 'pass.managed'
+
 dep 'python-pip.managed' do
   provides ['pip']
 end
@@ -65,6 +67,7 @@ dep 'linux utilities installed' do
     'mercurial.managed',
     'nmap.managed',
     'openssh-client.managed',
+    'pass.managed',
     'python-pip.managed',
     'synaptic.managed',
     'vim.managed',
