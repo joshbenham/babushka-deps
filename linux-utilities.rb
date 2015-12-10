@@ -40,6 +40,7 @@ dep 'python-pip.managed' do
 end
 
 dep 'synaptic.managed'
+dep 'uptimed.managed'
 dep 'vim.managed'
 dep 'virtualbox.managed'
 dep 'vlc.managed'
@@ -70,6 +71,7 @@ dep 'linux utilities installed' do
     'pass.managed',
     'python-pip.managed',
     'synaptic.managed',
+    'uptimed.managed',
     'vim.managed',
     'virtualbox.managed',
     'vlc.managed',
